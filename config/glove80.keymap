@@ -92,12 +92,12 @@
             // | MAGIC | HOME| END | LEFT | RIGHT|      | BSPC  | DEL   | LALT  | | RALT  | RET   | SPACE |      |  UP   | DOWN  |  [   |   ]   | PGDN |
 
             bindings = <
-&kp F1                &kp F2    &kp F3   &kp F4    &kp F5                                                                                      &kp F6  &kp F7     &kp F8    &kp F9          &kp F10
-&kp GRAVE             &kp N1    &kp N2   &kp N3    &kp N4     &kp N5                                                                   &kp N6  &kp N7  &kp N8     &kp N9    &kp UNDERSCORE  &kp MINUS
-&kp LEFT_PARENTHESIS  &kp Q     &kp W    &kp F     &kp P      &kp B                                                                    &kp J   &kp L   &kp U      &kp Y     &kp O           &kp RIGHT_PARENTHESIS
-&kp EQUAL             &kp A     &kp R    &kp S     &kp T      &kp G                                                                    &kp M   &kp N   &kp E      &kp I     &kp SEMI        &kp SEMICOLON
-&kp LEFT_BRACE        &kp Z     &kp X    &kp C     &kp D      &kp V   &kp LSHFT  &kp LCTRL  &layer_td  &kp LGUI  &kp RCTRL  &kp RSHFT  &kp K   &kp H   &kp COMMA  &kp DOT   &kp FSLH        &kp RIGHT_BRACE
-&magic MAGIC 0        &kp HOME  &kp END  &kp LEFT  &kp RIGHT          &kp BSPC   &kp DEL    &kp LALT   &kp RALT  &kp RET    &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp BACKSLASH   &kp PG_DN
+&kp F1                &kp F2    &kp F3   &kp F4    &kp F5                                                                                            &kp F6  &kp F7     &kp F8    &kp F9          &kp F10
+&kp GRAVE             &kp N1    &kp N2   &kp N3    &kp N4     &kp N5                                                                         &kp N6  &kp N7  &kp N8     &kp N9    &kp UNDERSCORE  &kp MINUS
+&kp LEFT_PARENTHESIS  &kp Q     &kp W    &kp F     &kp P      &kp B                                                                          &kp J   &kp L   &kp U      &kp Y     &kp O           &kp RIGHT_PARENTHESIS
+&kp EQUAL             &kp A     &kp R    &kp S     &kp T      &kp G                                                                          &kp M   &kp N   &kp E      &kp I     &kp SEMI        &kp SEMICOLON
+&kp LEFT_BRACE        &kp Z     &kp X    &kp C     &kp D      &kp V   &kp PERIOD  &kp PERIOD  &layer_td  &kp PERIOD  &kp PERIOD  &kp PERIOD  &kp K   &kp H   &kp COMMA  &kp DOT   &kp FSLH        &kp RIGHT_BRACE
+&magic MAGIC 0        &kp HOME  &kp END  &kp LEFT  &kp RIGHT          &kp BSPC    &kp SPACE   &mo 5      &mo 6       &kp ENTER   &mo 4               &kp UP  &kp DOWN   &kp LBKT  &kp BACKSLASH   &kp PG_DN
             >;
         };
 
@@ -142,6 +142,28 @@
 &kp PLUS          &kp LS(A)        &kp LS(R)    &kp LS(S)  &kp LS(T)   &kp LS(G)                                                    &kp LS(M)  &kp LS(N)      &kp LS(E)     &kp LS(I)   &kp LS(O)     &kp COLON
 &kp LESS_THAN     &kp LS(Z)        &kp LS(X)    &kp LS(C)  &kp LS(D)   &kp LS(V)    &trans  &trans  &trans  &trans  &trans  &trans  &kp LS(K)  &kp LS(H)      &kp PIPE      &kp ESCAPE  &kp QUESTION  &kp GREATER_THAN
 &trans            &trans           &trans       &trans     &trans                   &trans  &trans  &trans  &trans  &trans  &trans             &trans         &trans        &trans      &trans        &trans
+            >;
+        };
+
+        UTILITY_LAYER {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        UTILITY_LAYER_2 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                                                                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
