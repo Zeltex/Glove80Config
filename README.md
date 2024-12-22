@@ -35,3 +35,16 @@ To locate your firmware files and reflash your Glove80...
 6. Flash the firmware to Glove80 according to the user documentation on the official Glove80 Glove80 Support website (linked above)
 
 Your keyboard is now ready to use.
+
+
+## Useful links
+
+### MoErgo ZMK firmware includes
+https://github.com/moergo-sc/zmk/blob/main/app/include/dt-bindings/zmk
+
+### Official ZMK firmware includes
+https://github.com/zmkfirmware/zmk/blob/main/app/include/dt-bindings/zmk
+
+### Keymap editor
+https://nickcoutsos.github.io/keymap-editor/
+
